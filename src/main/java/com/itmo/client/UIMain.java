@@ -49,7 +49,7 @@ public class UIMain extends Application {
         resourceBundle = ResourceBundle.getBundle("locals", Locale.forLanguageTag("RU"), loader);
         Parent root = FXMLLoader.load(getClass().getResource("/views/main.fxml"), resourceBundle);
         stage.setScene(new Scene(root));
-        stage.setTitle("JavaFX application by Dyakonov Michail");
+        stage.setTitle("JavaFX application by Sergey Sitnikov");
 
         Parent auth = FXMLLoader.load(getClass().getResource("/views/auth.fxml"));
         Stage authStage = new Stage();
